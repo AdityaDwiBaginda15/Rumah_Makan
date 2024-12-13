@@ -1,4 +1,3 @@
-/* Gaya Dasar */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background: linear-gradient(90deg, #ff6347, #ff4500);
     color: #fff;
@@ -50,7 +48,6 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-/* Section */
 section {
     padding: 40px 20px;
     margin: 20px auto;
@@ -75,7 +72,6 @@ section img:hover {
     transform: scale(1.05);
 }
 
-/* Animasi untuk Section */
 @keyframes fadeIn {
     from {
         transform: translateY(20px);
@@ -87,12 +83,10 @@ section img:hover {
     }
 }
 
-/* Pembayaran dan kontak dengan warna berbeda */
 section#pembayaran, section#kontak {
     background: linear-gradient(120deg, #ffe4b5, #ffd700);
 }
 
-/* Footer */
 footer {
     text-align: center;
     background: #333;
@@ -108,13 +102,11 @@ footer p {
     margin: 0;
 }
 
-/* Hover efek footer */
 footer p:hover {
     color: #ff6347;
     transition: color 0.4s ease;
 }
 
-/* Efek kecil pada link */
 a {
     text-decoration: none;
     color: #ff6347;
